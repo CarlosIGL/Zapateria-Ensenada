@@ -179,12 +179,14 @@ $result =$mysql->query($consulta)
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+
                 <div class="modal-body">
                     <p> ¿Donde nos ubicamos?</p>
                     <p>¿Cuales son las politicas de devolución?</p>
                     <p>¿Debo registrarme para comprar o pedir en linea?</p>
                     <p>¿Tienes alguna queja, sugerencia o comentario?</p>
                 </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn" data-dismiss="modal">Cerrar</button>
                 </div>

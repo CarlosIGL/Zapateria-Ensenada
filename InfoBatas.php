@@ -120,10 +120,8 @@ $result =$mysql->query($consulta)
                     <h2 class="featurette-heading">TALLAS:</h2>
                     <p class="lead"><?php echo $row['TALLAS']; ?>.</p>
                 </div>
-
             </div>
-
-
+            <p><a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#portfolioModal2" role="button">Hacer pedido &raquo;</a></p>
 
         <?php
         endforeach;

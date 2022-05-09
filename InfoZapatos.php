@@ -123,6 +123,9 @@ $result =$mysql->query($consulta)
 
             </div>
 
+            <p><a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#portfolioModal2" role="button">Hacer pedido &raquo;</a></p>
+
+
 
 
         <?php

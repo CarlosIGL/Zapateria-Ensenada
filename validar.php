@@ -17,7 +17,9 @@
     $filas=mysqli_num_rows($resultado);
 
     if($filas){
-        header("location:administrador.php");
+        echo "<script> alert('Se inicio correctamente la sesión');
+            location.href='administrador.php';
+                </script>";
     }else{
         echo "<script> alert('Contrasena o Email incorrectos');
             location.href='ingresar.php';
